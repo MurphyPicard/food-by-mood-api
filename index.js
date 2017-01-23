@@ -1,6 +1,8 @@
 var express = require("express");
 var parser  = require("body-parser");
 var mongoose= require("./db/connection");
+mongoose.Promise = global.Promise;
+
 
 var app     = express();
 
@@ -8,7 +10,6 @@ var Food = mongoose.model("Food");
 
 app.set("port", process.env.PORT || 3001);
 
-app.use("/assets", express.static("public"));
 app.use(parser.json({extended: true}));
 
 app.get("/", function(req, res){
