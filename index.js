@@ -23,25 +23,25 @@ app.get("/api/foods", function(req, res){
 });
 
 app.get("/api/foods/:title", function(req, res){
-  Food.findOne({name: req.params.name}).then(function(food){
+  Food.findOne({title: req.params.title}).then(function(food){
     res.json(food);
   });
 });
 
 app.post("/api/foods", function(req, res){
-  Food.create(req.body).then(function(food){
+  Food.create(req.title).then(function(food){
     res.json(food);
   });
 });
 
 app.delete("/api/foods/:title", function(req, res){
-  Food.findOneAndRemove({name: req.params.name}).then(function(){
+  Food.findOneAndRemove({title: req.params.title}).then(function(){
     res.json({success: true });
   });
 });
 
 app.put("/api/candidates/:title", function(req, res){
-  Food.findOneAndUpdate({name: req.params.name}, req.body, {new: true}).then(function(food){
+  Food.findOneAndUpdate({title: req.params.title}, req.body, {new: true}).then(function(food){
     res.json(food);
   });
 });
