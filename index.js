@@ -3,9 +3,9 @@ var parser  = require("body-parser");
 var mongoose= require("./db/connection");
 mongoose.Promise = global.Promise;
 
-
+var cors = require('cors');
 var app     = express();
-
+app.use(cors());
 var Food = mongoose.model("Food");
 
 app.set("port", process.env.PORT || 3001);
