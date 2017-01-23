@@ -10,7 +10,10 @@ var Food = mongoose.model("Food");
 
 app.set("port", process.env.PORT || 3001);
 
-app.use(parser.json({extended: true}));
+app.use(parser.json({extended: true})); //to support JSON encoded-bodies
+app.use(parser.urlencoded({     // to support URL-encoded bodies
+  extended: true
+}));
 
 app.get("/", function(req, res){
   res.render("foods");
@@ -29,6 +32,8 @@ app.get("/api/foods/:title", function(req, res){
 });
 
 app.post("/api/foods", function(req, res){
+  console.log("look here");
+  console.log(req.body);
   Food.create(req.body).then(function(food){
     console.log(food);
     res.json(food);
