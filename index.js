@@ -29,7 +29,8 @@ app.get("/api/foods/:title", function(req, res){
 });
 
 app.post("/api/foods", function(req, res){
-  Food.create(req.title).then(function(food){
+  Food.create(req.body).then(function(food){
+    console.log(food);
     res.json(food);
   });
 });

@@ -1,10 +1,24 @@
 [
   {
-    "title": "fried ckicken",
-    "description": "southern fried chicken with italian breadcrumbs"
+    "title": "Fried Chicken",
+    "photoUrl": "http://www.seriouseats.com/images/20120112-popeyes-refried-chicken-6.jpg",
+    "prepTime": 10,
+    "cookTime": 15,
+    "ingredients": "Chicken, Oil, Flour",
+    "description": "KFC style",
+    "instructions": "Deep Fry everything",
+    "mood": ["sad", "comfort", "stoned", "drunk"],
+    "votes": 3
   },
   {
-    "title": "chocolate ice cream",
-    "description": "southern fried ice cream without breadcrumbs"
+    "title": "Salad",
+    "photoUrl": "http://brownbagonline.com/wp-content/uploads/2013/07/MissMaeSalad.png",
+    "prepTime": 5,
+    "cookTime": 5,
+    "ingredients": "Chicken, Oil, Flour",
+    "description": "Healthy and Delicous",
+    "instructions": "Deep Fry everything",
+    "mood": ["healthy", "gametime", "light"],
+    "votes": 6
   }
 ]
