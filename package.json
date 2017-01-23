@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MurphyPicard/food-by-mood-api.git"
+    "url": "git+https://github.com/mconnors333/food-by-mood-api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MurphyPicard/food-by-mood-api/issues"
+    "url": "https://github.com/mconnors333/food-by-mood-api/issues"
   },
-  "homepage": "https://github.com/MurphyPicard/food-by-mood-api#readme",
+  "homepage": "https://github.com/mconnors333/food-by-mood-api#readme",
   "dependencies": {
     "body-parser": "^1.16.0",
     "express": "^4.14.0",
