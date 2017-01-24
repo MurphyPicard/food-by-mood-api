@@ -14,9 +14,7 @@ app.use(parser.urlencoded({     // to support URL-encoded bodies
   extended: true
 }));
 
-app.get("/", function(req, res){
-  res.render("foods");
-});
+
 
 app.get("/api/foods", function(req, res){
   Food.find({}).then(function(foods){
