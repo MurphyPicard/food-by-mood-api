@@ -32,10 +32,7 @@ app.get("/api/foods/:title", function(req, res){
 });
 
 app.post("/api/foods", function(req, res){
-  console.log("look here");
-  console.log(req.body);
   Food.create(req.body).then(function(food){
-    console.log(food);
     res.json(food);
   });
 });
