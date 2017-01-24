@@ -46,9 +46,12 @@ app.delete("/api/foods/:title", function(req, res){
   });
 });
 
-app.put("/api/candidates/:title", function(req, res){
-  Food.findOneAndUpdate({title: req.params.title}, req.body, {new: true}).then(function(food){
-    res.json(food);
+app.put("/api/foods", function(req, res){
+  console.log("this is req.body: " + req.body);
+  Food.findOneAndUpdate({_id: req.body._id}, req.body)
+  .then(function(food){
+    console.log("this is the updated version of the food >>>>> ", food);
+    res.json(req.body);
   });
 });
 
