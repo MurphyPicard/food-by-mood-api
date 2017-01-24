@@ -1,7 +1,6 @@
 var express = require("express");
 var parser  = require("body-parser");
 var mongoose= require("./db/connection");
-mongoose.Promise = global.Promise;
 
 var cors = require('cors');
 var app     = express();
@@ -43,9 +42,11 @@ app.delete("/api/foods/:title", function(req, res){
   });
 });
 
-app.put("/api/foods/:title", function(req, res){
-  Food.findOneAndUpdate({title: req.params.title}, req.body, {new: true}).then(function(food){
-    res.json(food);
+app.put("/api/foods", function(req, res){
+  console.log("this is req.body: " + req.body);
+  Food.findOneAndUpdate({_id: req.body._id}, req.body)
+  .then(function(food){
+    res.json(req.body);
   });
 });
 
