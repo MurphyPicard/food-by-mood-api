@@ -1,7 +1,6 @@
 var express = require("express");
 var parser  = require("body-parser");
 var mongoose= require("./db/connection");
-mongoose.Promise = global.Promise;
 
 var cors = require('cors');
 var app     = express();
@@ -32,11 +31,8 @@ app.get("/api/foods/:title", function(req, res){
 });
 
 app.post("/api/foods", function(req, res){
-  console.log("look here");
-  console.log(req.body);
   Food.create(req.body).then(function(food){
-    console.log(food);
-    res.json(food);
+    res.json(req.body);
   });
 });
 
@@ -50,7 +46,6 @@ app.put("/api/foods", function(req, res){
   console.log("this is req.body: " + req.body);
   Food.findOneAndUpdate({_id: req.body._id}, req.body)
   .then(function(food){
-    console.log("this is the updated version of the food >>>>> ", food);
     res.json(req.body);
   });
 });
