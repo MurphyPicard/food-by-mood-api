@@ -6,6 +6,7 @@ var cors = require('cors');
 var app     = express();
 app.use(cors());
 var Food = mongoose.model("Food");
+var Mood = mongoose.model("Mood");
 
 app.set("port", process.env.PORT || 3001);
 
