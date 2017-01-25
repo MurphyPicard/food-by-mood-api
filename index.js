@@ -16,19 +16,17 @@ app.use(parser.urlencoded({     // to support URL-encoded bodies
 }));
 
 
-//added in for review
 app.get("/api/moods", function(req, res){
   Mood.find({}).then(function(moods){
     res.json(moods);
   });
 });
-//added in for review
+
 app.get("/api/moods/:title", function(req, res){
   Mood.findOne({title: req.params.title}).then(function(mood){
     res.json(mood);
   });
 });
-////////////////////////
 
 app.get("/api/foods", function(req, res){
   Food.find({}).then(function(foods){
