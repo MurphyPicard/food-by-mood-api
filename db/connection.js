@@ -14,7 +14,15 @@ var FoodSchema = new mongoose.Schema(
   }
 );
 
+var MoodSchema = new mongoose.Schema(
+  {
+    mood: String,
+    foods: [FoodSchema]
+  }
+);
+
 mongoose.model("Food", FoodSchema);
+mongoose.model("Mood", MoodSchema);
 mongoose.connect("mongodb://localhost/foods");
 
 module.exports = mongoose;
