@@ -1,11 +1,26 @@
 [
   {
-    "mood": "Happy"
+    "title": "Happy"
   },
   {
-    "mood": "Comfort"
+    "title": "Sad"
   },
   {
-    "mood": "Sad"
+    "title": "Comfortable"
+  },
+  {
+    "title": "Exciting"
+  },
+  {
+    "title": "Scary"
+  },
+  {
+    "title": "Drunk"
+  },
+  {
+    "title": "Stoned"
+  },
+  {
+    "title": "Healthy"
   }
 ]
