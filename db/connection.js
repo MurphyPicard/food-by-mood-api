@@ -23,6 +23,6 @@ var MoodSchema = new mongoose.Schema(
 
 mongoose.model("Food", FoodSchema);
 mongoose.model("Mood", MoodSchema);
-mongoose.connect(process.env.MONGOLAB_URL || "mongodb://localhost/foods");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/foods");
 
 module.exports = mongoose;
