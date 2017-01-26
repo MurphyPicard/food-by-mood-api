@@ -9,7 +9,8 @@ var FoodSchema = new mongoose.Schema(
     ingredients: String,
     description: String,
     instructions: String,
-    mood: String
+    mood: String,
+    votes: Number
   }
 );
 
