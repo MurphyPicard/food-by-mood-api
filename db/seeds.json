@@ -132,13 +132,13 @@
     "votes": 0
   },
   {
-    "title": "Lo-Mein",
-    "photoUrl": "http://img.food.com/img/recipes/18/13/18/large/pichWrD4E.jpg",
-    "prepTime": 30,
-    "cookTime": 45,
-    "ingredients": "Pasta, Tomato Sauce, Cheese",
-    "description": "Cheesy Pasta",
-    "instructions": "Bake the lasagna in the oven for 30 mins",
+    "title": "Seafood Paella",
+    "photoUrl": "https://d2k9njawademcf.cloudfront.net/indeximages/10194/original/IMG_1395_edited-1.jpg?1403246352",
+    "prepTime": 20,
+    "cookTime": 25,
+    "ingredients": "Seafood, Rice",
+    "description": "Goodness",
+    "instructions": "Do not share!",
     "mood": "Exciting",
     "votes": 0
   },
@@ -158,11 +158,109 @@
     "photoUrl": "http://images.media-allrecipes.com/userphotos/960x960/3757340.jpg",
     "prepTime": 30,
     "cookTime": 45,
-    "ingredients": "Shrimp, ",
-    "description": "Cheesy Pasta",
-    "instructions": "Bake the lasagna in the oven for 30 mins",
-    "mood": "Comfortable",
+    "ingredients": "Shrimp, Lime, Red Onions, Avocado, Tomato",
+    "description": "Bomb.com",
+    "instructions": "Cook the shrimp!",
+    "mood": "Exciting",
+    "votes": 0
+  },
+  {
+    "title": "Popcorn",
+    "photoUrl": "http://www.bakeryandsnacks.com/var/plain_site/storage/images/publications/food-beverage-nutrition/bakeryandsnacks.com/markets/popcorn-boom-is-there-room-for-growth-competition/9095956-1-eng-GB/Popcorn-boom-Is-there-room-for-growth-competition.jpg",
+    "prepTime": 5,
+    "cookTime": 2,
+    "ingredients": "Popcorn",
+    "description": "Bomb.com",
+    "instructions": "Throw it in the microwave!",
+    "mood": "Scary",
+    "votes": 0
+  },
+  {
+    "title": "Buffalo Tenders",
+    "photoUrl": "https://reckittbenckiser.calcmenuweb.com/picOriginal/LP_11376_201409160400_PO1000.jpg",
+    "prepTime": 10,
+    "cookTime": 25,
+    "ingredients": "Chicken strips, Red Hot Sauce",
+    "description": "Boom Yow",
+    "instructions": "Must eat all in one bite!",
+    "mood": "Scary",
+    "votes": 0
+  },
+  {
+    "title": "Chilly Cheese Curly Fries",
+    "photoUrl": "http://www.hooters.co.jp/en/wp-content/themes/hooters_english/img/menu/m_soup3.jpg",
+    "prepTime": 10,
+    "cookTime": 25,
+    "ingredients": "Curly Fries, Cheese, Chilli",
+    "description": "Delicious",
+    "instructions": "Eat It!",
+    "mood": "Scary",
+    "votes": 0
+  },
+  {
+    "title": "Fully Loaded Hot Dog",
+    "photoUrl": "http://www.frugalmomeh.com/wp-content/uploads/2014/07/IMG_7210.jpg",
+    "prepTime": 10,
+    "cookTime": 25,
+    "ingredients": "Hot Dog, Bacon, Tomato, Relish, Mustard, Egg Over Ez",
+    "description": "Hot dog from Heaven",
+    "instructions": "Eat It!",
+    "mood": "Drunk",
+    "votes": 0
+  },
+  {
+    "title": "Stir Fry Dungeoness Crab",
+    "photoUrl": "https://lh5.googleusercontent.com/-6GdpOlnfvf0/Udt3d0ZiWII/AAAAAAAABws/tD_S-59TFt8/s512/IMG_3672.JPG",
+    "prepTime": 15,
+    "cookTime": 35,
+    "ingredients": "Crabs, Crabs seasoning, Green Onion",
+    "description": "BOMB.COM",
+    "instructions": "Eat It!",
+    "mood": "Drunk",
+    "votes": 0
+  },
+  {
+    "title": "Steak and Cheese Sandwich",
+    "photoUrl": "http://i.huffpost.com/gen/819014/images/o-CHEESESTEAK-facebook.jpg",
+    "prepTime": 10,
+    "cookTime": 15,
+    "ingredients": "Steak, Cheese, Onions, Mushroom",
+    "description": "Delicious",
+    "instructions": "Eat It!",
+    "mood": "Drunk",
+    "votes": 0
+  },
+  {
+    "title": "Fruit Stick",
+    "photoUrl": "http://doctorjacq.com/wp-content/uploads/2013/11/IMG_3876.jpg",
+    "prepTime": 10,
+    "cookTime": 15,
+    "ingredients": "Steak, Cheese, Onions, Mushroom",
+    "description": "Delicious",
+    "instructions": "Eat It!",
+    "mood": "Healthy",
+    "votes": 0
+  },
+  {
+    "title": "Stuffed Mushroom",
+    "photoUrl": "http://eatdrinkbetter.com/wp-content/uploads/2010/04/stuffed-mushrooms-with-spinach-nuts-and-cheese.jpg",
+    "prepTime": 10,
+    "cookTime": 15,
+    "ingredients": "Mushroom, Feta Cheese, Spinach",
+    "description": "Delicious",
+    "instructions": "Eat It!",
+    "mood": "Healthy",
+    "votes": 0
+  },
+  {
+    "title": "Zoodles Alfredo",
+    "photoUrl": "http://media-cache-ec0.pinimg.com/736x/aa/2b/ce/aa2bce1880a2d8823c1958151d8f02b5.jpg",
+    "prepTime": 15,
+    "cookTime": 25,
+    "ingredients": "Zoodles (Zuchini Noodles), Light Alfredo Sauce",
+    "description": "HEALHYYYYY",
+    "instructions": "Eat It!",
+    "mood": "Healthy",
     "votes": 0
   }
-
 ]
