@@ -2,6 +2,8 @@ var express = require("express");
 var parser  = require("body-parser");
 var mongoose= require("./db/connection");
 
+mongoose.Promise = global.Promise;
+
 var cors = require('cors');
 var app     = express();
 app.use(cors());

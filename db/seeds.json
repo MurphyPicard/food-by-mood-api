@@ -9,7 +9,7 @@
     "instructions": "Deep Fry everything",
     "mood": "Sad",
     "votes": 0
-  },
+},
   {
     "title": "French Fries",
     "photoUrl": "http://i.ndtvimg.com/i/2015-01/frenchfries_625x350_81422009789.jpg",
@@ -262,5 +262,5 @@
     "instructions": "Eat It!",
     "mood": "Healthy",
     "votes": 0
-  },
+  }
 ]
