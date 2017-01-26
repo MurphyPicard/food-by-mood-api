@@ -7,7 +7,8 @@
     "ingredients": "Chicken, Oil, Flour",
     "description": "KFC style",
     "instructions": "Deep Fry everything",
-    "mood": "Sad"
+    "mood": "Sad",
+    "votes": 0
   },
   {
     "title": "Salad",
@@ -17,6 +18,7 @@
     "ingredients": "Lettuce, Tomatoes, Dressing",
     "description": "Healthy and Delicous",
     "instructions": "Deep Fry everything",
-    "mood": "Happy"
+    "mood": "Happy",
+    "votes": 0
   }
 ]
