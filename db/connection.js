@@ -4,8 +4,8 @@ var FoodSchema = new mongoose.Schema(
   {
     title: String,
     photoUrl: String,
-    prepTime: Number,
-    cookTime: Number,
+    prepTime: String,
+    cookTime: String,
     ingredients: String,
     description: String,
     instructions: String,
