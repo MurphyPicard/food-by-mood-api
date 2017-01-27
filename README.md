@@ -1,3 +1,5 @@
+#Food By Mood
+
 
 Food By Mood is an application where users can find recipes based on the mood
 they are in.  For the back-end portion of our project, the API was built
