@@ -13,4 +13,4 @@ A link to the deployed back-end app:
 
 A link to the repo for your front-end:
 
-<https://github.com/mconnors333/food-by-mood-api>
+<https://github.com/mconnors333/food-by-mood-ui>
