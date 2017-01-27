@@ -8,10 +8,9 @@ The api expects GET - POST - PUT - DELETE methods.
 
 A link to the deployed back-end app:
 
-/////// put BACK-END link here ////////////////////////////////
-
+<https://food-by-mood.herokuapp.com/api/foods>
 
 
 A link to the repo for your front-end:
 
-/////// put FRONT-END link here ////////////////////////////////
+<https://github.com/mconnors333/food-by-mood-api>
